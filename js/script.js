@@ -59,8 +59,20 @@ var newStudent = {
 }
 
 // ora c'è da fare un prompt con un minimo di interazione da parte dell'utente:
+while (newStudent.newPerson.length < 1) {
+    // input da parte dell'utente per dare i dati del nuovo studente:
+    var newNome = prompt('Inserisci il nome dello studente da aggiungere');
+    var newSurname = prompt('Inserisci il cognome del nuovo studente');
+    var newAge = prompt('Inserisci in fine la sua età');
 
-
+    // si pusha il malloppo lasciato dall'utente dentro alla array di oggetti, DANDOLI UN KEY:
+    newStudent.newPerson.push({
+        nome1 : newNome,
+        cognome1 : newSurname,
+        età1 : newAge
+    });
+    console.log(newStudent)
+}
 
 
 
