@@ -4,6 +4,7 @@ nome, cognome e età. Stampare a schermo attraverso un ciclo for-in tutte
 le proprietà dell’oggetto.
 */
 var output1 = document.getElementById('result');
+
 // Creo la variabile con gli oggetti (key e valore):
 var studente = {
 // key : valore,
@@ -46,3 +47,23 @@ for (var x = 0; x < classe.studentsSurname.length; x++) {
     output3.innerHTML += '<li>' + classe.studentsSurname[x] + '</li>';
     
 }
+/* PARTE 3:
+    Dare la possibilità all’utente, attraverso 3 prompt() 
+    - uno per ciascuna proprietà 
+    - di aggiungere UN SOLO oggetto studente inserendo nell’ordine: nome, cognome e età.
+*/
+
+// Creo un'altra variabile oggetto per fare l'aggiunta:
+var newStudent = {
+    newPerson : []
+}
+
+// ora c'è da fare un prompt con un minimo di interazione da parte dell'utente:
+
+
+
+
+
+
+
+
